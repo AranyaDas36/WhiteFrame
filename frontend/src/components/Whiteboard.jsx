@@ -4,7 +4,7 @@ import DrawingCanvas from './DrawingCanvas';
 import Toolbar from './Toolbar';
 import UserCursors from './UserCursors';
 
-const API_URL = 'http://localhost:5001';
+const API_URL = 'https://whiteframe.onrender.com';
 
 export default function Whiteboard({ roomId, onLeave }) {
   const [socket, setSocket] = useState(null);
